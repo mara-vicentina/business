@@ -1,0 +1,79 @@
+.ecard {
+    min-height: 325px;
+    height: auto;
+    border: none;
+    background-color: #0F1527;
+    padding-top: 1.5rem;
+}
+
+.ecard:hover {
+    background-color: #1d2239;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid #3e3f41;
+}
+
+.ecard__icon {
+    color: rgb(108,117,125);
+    opacity: 50%;
+    font-size: 2.5rem;
+}
+
+.ecard__title {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.ecard__body {
+ padding-bottom: 10px;
+}
+
+.ecard__text {
+    color:rgb(108,117,125);
+}
+
+.ecard__button {
+    color:rgb(13,202,240);
+    background-color: #1d2239;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    padding: 0;
+    margin: 17px 0 0 0;
+}
+
+.ecard:hover .ecard__button {
+    display: block !important;
+}
+
+.bg-darkblue {
+    background-color: #0F1527;
+}
+.card-body {
+    padding: 0;
+}
+
+.card-custom {
+    min-height: 325px;
+    height: auto;
+    border: none;
+}
+
+.card:hover {
+    background-color: #1d2239;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid #3e3f41;
+}
+
+.card:hover button {
+    display: block !important;
+}
+
+.btn-custom {
+   text-align: left;
+   text-decoration: none;
+   padding: 0;
+   margin: 0 0 9px 0;
+}
+
